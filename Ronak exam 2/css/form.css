@@ -1,0 +1,142 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    background-image: url('../image/testimonial.jpeg');
+    background-size: cover;
+
+}
+
+.wrapper {
+    width: 1200px;
+    height: 900px;
+    margin: 0 auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+@font-face {
+    font-family: 'regular';
+    src: url(../montserrat-20240716T043513Z-001/montserrat/Montserrat-Regular.woff);
+}
+
+.form {
+    width: 480px;
+    height: 582px;
+    border: 4px dashed white;
+    color: transparent;
+    backdrop-filter: blur(20px);
+    overflow: hidden;
+
+}
+
+.form:hover {
+    background-color: rgb(46, 45, 45);
+    transition: all 0.7s ease-in-out;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+.form::-webkit-scrollbar {
+    display: none;
+}
+
+.box {
+    width: 299px;
+    height: 296px;
+    border-radius: 50%;
+    background-color: #236302;
+    transform: translateX(-106px) translateY(-100px);
+}
+
+.center-box {
+    width: 250px;
+    height: 250px;
+    background-color: #cb6e00;
+    border-radius: 50%;
+    border: 4px dashed white;
+    transform: translateX(17px) translateY(18px);
+}
+
+.coma2 {
+    width: 71px;
+    height: 59px;
+    transform: translateX(138px) translateY(-118px);
+}
+
+.profile {
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+    position: fixed;
+    background-image: url(../image/profile.jpeg);
+    background-size: cover;
+    transform: translateX(266px) translateY(-306px);
+}
+
+
+.head {
+    color: aliceblue;
+    font-size: 37px;
+    transform: translateX(267px) translateY(-296px);
+    font-family: sans-serif;
+    font-weight: 500;
+}
+
+.text {
+    width: 100%;
+    height: 50px;
+
+    transform: translateX(0px) translateY(-120px);
+
+}
+
+.JohnDue {
+    color: aliceblue;
+    font-size: 21px;
+    font-family: 'regular';
+    margin-bottom: 0px;
+    margin-left: 14px;
+    font-weight: 700;
+}
+
+.star {
+    width: 243px;
+    height: 55px;
+    transform: translateX(-39px) translateY(0px);
+}
+
+.pera {
+    color: aliceblue;
+
+    font-family: 'regular';
+    margin-top: 0px;
+    margin-left: 15px;
+    font-size: 23px;
+    font-weight: 400;
+
+}
+
+.pera-box {
+    width: 90%;
+    height: 340px;
+    align-items: center;
+
+
+}
+
+.btn {
+    width: 133px;
+    height: 39px;
+    background-color: #cb6e00;
+    border-radius: 12px;
+    border: 0px;
+    color: azure;
+}
+
+.box2 {
+    padding-left: 20px;
+    width: 420px;
+}
